@@ -87,3 +87,71 @@ if(age >= 25){
 else{
     console.log("Grow Up first then drive a car");
 }*/
+
+
+// Block level variables
+/*const presentYear = 2022;
+let year;
+if(presentYear <= 2023){
+    year = 22;
+}
+else{
+    year = 2022
+}
+
+console.log(year)*/
+
+
+// Types conversion of Data
+/*
+const pastYear = "1992";
+
+console.log(Number(pastYear), pastYear);
+console.log(Number(pastYear) + 10);
+
+console.log(Number("string"));
+console.log(typeof NaN);
+
+console.log(String(12),23);
+
+
+// Type coercion 
+
+console.log('I am '+ 29 + ' years old');
+console.log('I am '+'29'+' years old')
+console.log('23'- '3' - 10); 
+console.log('23'+ '3' + 10); 
+console.log('22' * 2); 
+console.log('22' * '2'); 
+console.log('23' / '2'); 
+*/
+
+// Boolean
+// 5 falsy value: 0, '', undefined, null, NaN;
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean(NaN));
+console.log(Boolean('name'));
+console.log(Boolean({}));
+
+const money = 0;
+console.log(Boolean(money));
+
+if(money){
+    console.log('if part');
+}
+else{
+    console.log('else');
+}
+
+let newVar;
+console.log(Boolean(newVar));
+
+if(newVar){
+    console.log('if part');
+}
+else{
+    console.log('else');
+}
