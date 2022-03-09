@@ -157,13 +157,32 @@ else{
 }*/
 
 // Equal Operator
-const age = 20;
-const upAge = '15';
 // Strict Equality Operator
+/*const age = 20;
+const upAge = '15';
 if(age === 20) console.log("It's true");
 if(upAge == 15) console.log("It's true (loose operator)");
 
 // const enterNum = Number(prompt("Enter the number"));
 // console.log(enterNum);
 
-if(age !== 19) console.log("if block");
+if(age !== 19) console.log("if block");*/
+
+// Logical opreators
+const has = true;
+const vision = true;
+
+console.log(has && vision);
+console.log(!has && vision);
+console.log(has && !vision);
+console.log(!has && !vision);
+console.log(has || vision);
+console.log(has || !vision);
+console.log(!has || !vision);
+
+const newConst = has && vision;
+
+if(newConst) console.log('If statement is true');
+else console.log("else statement is true");
+
+
