@@ -128,7 +128,7 @@ console.log('23' / '2');
 
 // Boolean
 // 5 falsy value: 0, '', undefined, null, NaN;
-
+/*
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean(''));
@@ -154,4 +154,16 @@ if(newVar){
 }
 else{
     console.log('else');
-}
+}*/
+
+// Equal Operator
+const age = 20;
+const upAge = '15';
+// Strict Equality Operator
+if(age === 20) console.log("It's true");
+if(upAge == 15) console.log("It's true (loose operator)");
+
+// const enterNum = Number(prompt("Enter the number"));
+// console.log(enterNum);
+
+if(age !== 19) console.log("if block");
