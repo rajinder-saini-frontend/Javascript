@@ -222,5 +222,50 @@ const myage = 29;
 
 myage >= 20 ? console.log('Your Age is above 20') : '';
 
-myage <= 20  ? console.log('Your age is above 20') : console.log('Your age is less than 30')
+myage <= 20 ? console.log('Your age is above 20') : console.log('Your age is less than 30')
+*/
+
+
+// coding challenge
+/*
+let tip;
+let bill = 40;
+
+if (bill <= 300 && bill >= 50) {
+    console.log(tip = bill * 15 / 100, bill = bill + tip);
+}
+
+else if (bill < 50) {
+    tip = 0;
+    console.log(tip, bill);
+}
+
+else {
+    console.log(tip = bill * 20 / 100, bill = bill + tip);
+}
+
+let bill1 = 40;
+
+bill1 <= 300 && bill1 >= 50 ? console.log(tip = bill1 * 15 / 100, bill1 = bill1 + tip) : (bill1 < 50) ? console.log(tip = 0, bill1) : console.log(tip = bill1 * 20 / 100, bill1 = bill1 + tip);
+
+let newTip = 0,
+    newBill = 40;
+switch (true) {
+    case newBill <= 300 && newBill >= 50:
+        newTip = newBill * 15 / 100;
+        newBill = newBill + newTip;
+        console.log(newTip, newBill);
+        break;
+    case newBill >= 300:
+        newTip = newBill * 20 / 100;
+        newBill = newBill + newTip;
+        console.log(newTip, newBill);
+        break;
+    case newBill <= 50:
+        newTip = 0;
+        console.log(newTip, newBill);
+        break;
+    default:
+        console.log(newTip, newBill);
+}
 */
