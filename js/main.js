@@ -185,3 +185,42 @@ const newConst = has && vision;
 if(newConst) console.log('If statement is true');
 else console.log("else statement is true");
 */
+
+
+// Switch Statements
+/*
+const day = 'friday';
+
+switch(day){
+    case 'monday': //day === 'monday'
+        console.log('Week first day');
+        break;
+    case 'tuesday':
+        console.log('Week 2nd day');
+        break;
+    case 'wednesday':
+        console.log('Week 3rd day');
+        break;
+    case 'thursday':
+        console.log('week forth day');
+        break;
+    case 'friday':
+        console.log('Week 5th day');
+        break;
+    case 'saturday':
+        console.log('Week 6th day');
+        break;
+    case 'sunday':
+        console.log('weekend')
+        break;
+}*/
+
+
+// conditonal Ternary operator
+/*
+const myage = 29;
+
+myage >= 20 ? console.log('Your Age is above 20') : '';
+
+myage <= 20  ? console.log('Your age is above 20') : console.log('Your age is less than 30')
+*/
