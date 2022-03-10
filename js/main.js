@@ -169,7 +169,7 @@ if(upAge == 15) console.log("It's true (loose operator)");
 if(age !== 19) console.log("if block");*/
 
 // Logical opreators
-const has = true;
+/*const has = true;
 const vision = true;
 
 console.log(has && vision);
@@ -184,5 +184,4 @@ const newConst = has && vision;
 
 if(newConst) console.log('If statement is true');
 else console.log("else statement is true");
-
-
+*/
